@@ -1,0 +1,107 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+
+body {
+    margin: 50px;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Trebuchet MS", sans-serif;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 28px;
+}
+
+p, ol, ul {
+    width: 980px;
+}
+p{
+    padding-left: 10px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #EEE;
+    padding: 10px;
+}
+
+a{
+    color: #444;
+}
+
+a:hover{
+    color: #888;
+}
+
+section {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #444;
+}
+header{
+    background-image: url(../images/couchdb_day_hamburg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 192px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+header nav{
+    position: absolute;
+    bottom: 10px;
+}
+
+header nav ul{
+    margin: 0;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+a#forkme_banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 138px;
+  height: 138px;
+  display: block;
+  background: transparent url(../images/fork-sprite.png) 0 0 no-repeat;
+  text-indent: -9000px;
+  z-index: 3;
+}
+
+a#forkme_banner:hover {
+  background-position: 0 -138px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #ddd;
+    font-size: 12px;
+    height: 95px;
+}
+
+footer p {
+    line-height: 14px;
+}
+
+footer img{
+    float: right;
+    margin-right: 40px;
+}
