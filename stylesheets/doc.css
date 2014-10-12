@@ -102,6 +102,6 @@ footer p {
 }
 
 footer img{
-    float: right;
-    margin-right: 40px;
+    float: left;
+    margin-right: 15px;
 }
