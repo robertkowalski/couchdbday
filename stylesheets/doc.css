@@ -108,3 +108,9 @@ footer img{
     float: left;
     margin-right: 15px;
 }
+aside.center {
+    text-align:center;
+}
+aside.images img{
+    margin: 40px;
+}
