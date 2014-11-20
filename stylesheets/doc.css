@@ -114,3 +114,9 @@ aside.center {
 aside.images img{
     margin: 40px;
 }
+aside.images table {
+    width: 90%;
+}
+aside.images table td{
+    border: none;
+}
