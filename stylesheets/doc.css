@@ -30,6 +30,9 @@ table {
     border-spacing: 0px;
     border-collapse: collapse;
 }
+table.schedule {
+    font-size:14px;
+}
 
 th, td {
     border: 1px solid #EEE;
@@ -46,7 +49,7 @@ a:hover{
 
 section {
     padding: 10px 0 10px 0;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #ccc;
 }
 section.noborder{
     border-bottom: none;
@@ -119,4 +122,24 @@ aside.images table {
 }
 aside.images table td{
     border: none;
+}
+
+aside.left, aside.right{
+    width: 48%;
+}
+aside.left table, aside.right table {
+    width: 100%;
+}
+aside.left table td:nth-child(1){
+    width: 110px;
+}
+
+aside.left {
+    float:left;
+}
+aside.right {
+    float: right;
+}
+aside.clear {
+    clear: both;
 }
