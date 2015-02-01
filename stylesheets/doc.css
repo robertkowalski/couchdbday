@@ -143,3 +143,16 @@ aside.right {
 aside.clear {
     clear: both;
 }
+
+.locationbox-party, .locationbox-day {
+    width: 400px;
+}
+
+@media (min-width: 1000px) {
+    .locationbox-party {
+        float: right;
+    }
+    .locationbox-day {
+        float: left;
+    }
+}
